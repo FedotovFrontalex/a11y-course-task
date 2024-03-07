@@ -23,6 +23,8 @@ jobs:
           cp index.html dist/
           cp styles.css dist/
           cp scripts.js dist/
+          cp fonts dist/
+          cp images dist/
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
