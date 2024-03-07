@@ -21,6 +21,8 @@ jobs:
         run: |
           mkdir dist
           cp index.html dist/
+          cp styles.css dist/
+          cp scripts.js dist/
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
