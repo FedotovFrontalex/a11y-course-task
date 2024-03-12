@@ -126,6 +126,21 @@ fieldset legend {
   overflow: hidden;
 }
 
+.skipLink {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  display: block;
+  padding: 12px;
+  transform: translateY(-200px);
+  transition: transform 0.3s ease;
+}
+
+.skipLink:focus-visible {
+  outline: 1px solid blue;
+  transform: translate(0);
+}
+
 .container {
   width: 100%;
   max-width: 1340px;
